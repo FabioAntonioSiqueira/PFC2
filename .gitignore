@@ -1,0 +1,22 @@
+# Credenciais — NUNCA versionar
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Outputs gerados
+outputs/laudos/*.txt
+
+# Modelos treinados (se salvar depois)
+models/*.pkl
+models/*.joblib
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
